@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<title>Inscription</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+<h1 align="center"> Inscription en licence </h1>
+
+<form align="center">
+<fieldset>
+<legend align="center"> Informations personnelles </legend>
+<br/><br/>
+Votre nom : <input type="text" name="nom" placeholder="votre nom?">
+<br/> <br/>
+Votre prénom : <input type="text" name="prénom" placeholder="votre prénom?">
+<br/><br/>
+Votre age : <input type="number" name="age" placeholder="votre age?"> 
+<br/><br/>
+Date de naissance : <input type="datetime" name="datnaissance" placeholder="Date de votre naissance ?"> 
+<br/><br/>
+Votre adresse : <textarea name="adresse" placeholder="Votre adresse ?" rows="5" cols="10"></textarea>
+<br/><br/>
+Url de votre site : <input type="url" name="url" placeholder="url de votre site ?"> 
+<br/><br/>
+Votre adresse mail : <input type="email" name="mail" placeholder="votre adresse mail ?">
+<br/><br/>
+Mot de passe : <input type="password" name="mdp" required> 
+<br/><br/>
+Retapez votre mot de passe : <input type="password" name="mdpagain" required>
+<br/><br/>
+</fieldset>
+
+<br/><br/>
+
+<fieldset align="center">
+<legend align="center"> Gestion des groupes et des options </legend>
+<br/>
+Votre groupe : <input type="radio" name="groupe" value="groupe1"> Groupe1
+<input type="radio" name="groupe" value="groupe2">Groupe 2
+<input type="radio" name="groupe" value="groupe3">Groupe3
+<br/><br/>
+Numéro de carte d'étudiant : <input type="text" name="carte">
+<br/><br/>
+Choisissez les options que vous désirez : 
+<select name="options" size="3">
+<option value ="j2ee">J2ee
+<option value ="And"> Android
+<option value =".Net"> .Net
+<option value ="html"> HTML5
+<option value ="flex"> Flex
+</select>
+<br/><br/>
+</fieldset>
+<br/><br/>
+Tapez l'expression régulière utilisée :  <input type="text" name="robot" pattern="[I][N][S][A][T][0-9]{4}">
+<br/><br/>
+
+<input type="submit" content="valider" formaction="C:\Users\ASUS\Desktop\insat\RT\sem2\ilef\web\exercices\atelier HTML\exercice3\pageINSAT.html">
+<input type="reset" content="réinitialiser">
+
+
+
+
+</form>
+
+
+</body>
+</html>
